@@ -425,4 +425,6 @@ def main():
         print(f"Erreur critique au démarrage: {e}")
 
 if __name__ == '__main__':
+    from keep_alive import keep_alive
+    keep_alive()
     main()
